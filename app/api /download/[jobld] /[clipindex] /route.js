@@ -1,3 +1,6 @@
+export const dynamic = 'force-dynamic';
+
+// ...kode yang udah ada di bawahnya, biarin aja
 import { NextResponse } from 'next/server';
 import fs from 'fs';
 import { getJob } from '../../../../../lib/jobStore';
